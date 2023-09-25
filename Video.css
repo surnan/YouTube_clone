@@ -29,8 +29,39 @@
 }
 
 .video_preview_container {
-    /* position: absolute; */
     position: relative;
+}
+
+
+
+.volume_muted_icon {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.closed_caption_icon {
+    width: 25px;
+}
+
+
+.video_hover_menu {
+    background-color: black;
+    display: none;
+    justify-content: right;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+
+.video_preview_container:hover {
+    .video_hover_menu {
+        display: flex;
+        column-gap: 5px;
+        transition: column-gap;
+        border-radius: 2px;
+    }
 }
 
 .video_clock {
@@ -41,5 +72,10 @@
     right: 10px;
     font-size: small;
     font-weight: 600;
-    border-radius: 1px;
+    border-radius: 2px;
+}
+
+.video_title_container {
+    display: grid;
+    grid-template-columns: 1fr auto;
 }
