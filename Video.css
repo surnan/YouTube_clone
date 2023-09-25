@@ -1,4 +1,11 @@
-.video-details {
+
+.under-video{
     display: grid;
-    grid-row: 3;
+    grid-template-columns: 1fr 5fr;
+}
+
+.video-creator-details{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+;
 }
