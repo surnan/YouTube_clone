@@ -9,12 +9,25 @@
     margin-bottom: 10px;
 }
 
-.left_section{background-color: lightblue;}
+.left_section{
+    background-color: lightblue;
+}
+
 .right_section{background-color: lightgreen;}
 
 .middle_section{
     background-color: yellow;
 }
+
+.Recorder_Camcorder,
+.Bell_Notification,
+.Search_Bar_Button,
+.Sidebar_Extendor_Button,
+.YouTube_Home_Button {
+    height: 80%;
+}
+
+
 
 .search_bar{
 height: 80%;
