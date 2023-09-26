@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    background-color: bisque;
+    columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.left_section{background-color: lightblue;}
+.right_section{background-color: lightgreen;}
+
+.middle_section{
+    background-color: yellow;
+}
+
+.search_bar{
+height: 80%;
+border-radius: 20px;
+border-color: rgb(232, 232, 232);
+border-style: solid;
+}

@@ -1,5 +1,4 @@
 .entire_video_container {
-    background-color: green;
     width: 500px;
     display: inline-block;
 }
@@ -17,13 +16,11 @@
 .under_video {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    background-color: pink;
     padding: 10px;
 }
 
 .video-creator-details {
     display: grid;
-    background-color: yellow;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 10px;
 }
