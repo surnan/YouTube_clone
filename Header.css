@@ -1,7 +1,7 @@
-.header{
+.header {
     display: flex;
     background-color: bisque;
-    columns: 1fr 1fr 1fr;
+    columns: 50px 1fr 50px;
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
@@ -9,14 +9,42 @@
     margin-bottom: 10px;
 }
 
-.left_section{
+.left_section {
     background-color: lightblue;
 }
 
-.right_section{background-color: lightgreen;}
+.right_section {
+    background-color: lightgreen;
+}
 
-.middle_section{
+.middle_section {
     background-color: yellow;
+    display: flex;
+    flex: 1;
+    /* justify-content: center; */
+    margin-left: 60px;
+    margin-right: 30px;
+    max-width: 500px;
+}
+
+.searchBar_class {
+    background-color: red;
+    /* display: flex;
+    flex: 1;
+    max-width: 600px; */
+
+
+    /* width: 0px;
+    min-width: 0px; */
+}
+
+
+.search_bar {
+    height: 80%;
+    border-radius: 20px;
+    border-color: rgb(232, 232, 232);
+    border-style: solid;
+    width: 100%;
 }
 
 .Recorder_Camcorder,
@@ -25,13 +53,4 @@
 .Sidebar_Extendor_Button,
 .YouTube_Home_Button {
     height: 80%;
-}
-
-
-
-.search_bar{
-height: 80%;
-border-radius: 20px;
-border-color: rgb(232, 232, 232);
-border-style: solid;
 }
