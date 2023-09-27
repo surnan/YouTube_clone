@@ -5,10 +5,11 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    top: 60px;
+    top: 50px;
     width: 100px;
     z-index: 100;
     font-size: smaller;
+    background-color: white;
 }
 
 .home_icon,
