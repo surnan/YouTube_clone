@@ -29,8 +29,6 @@
     position: relative;
 }
 
-
-
 .volume_muted_icon {
     width: 25px;
     margin-right: 5px;
@@ -39,7 +37,6 @@
 .closed_caption_icon {
     width: 25px;
 }
-
 
 .video_hover_menu {
     background-color: black;
