@@ -1,6 +1,7 @@
 .entire_video_container {
     width: 500px;
     display: inline-block;
+    /* margin-top: 60px; */
 }
 
 .video_preview_thumbnail {
