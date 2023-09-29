@@ -2,16 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <title>My Youtube Page</title>
-    <link href="/YouTube_css/css/Header.css" rel="stylesheet">
-    <link href="/YouTube_css/css/LeftSidePane.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<title>My Youtube Page</title>
+	<link href="/YouTube_css/css/Header.css" rel="stylesheet">
+	<link href="/YouTube_css/css/LeftSidePane.css" rel="stylesheet">
 
-    <link href="/YouTube_css/css/previewThumbnail.css" rel="stylesheet">
-    <link href="/YouTube_css/css/Video.css" rel="stylesheet">
-    <link href="/YouTube_css/css/general.css" rel="stylesheet">
+	<link href="/YouTube_css/css/previewThumbnail.css" rel="stylesheet">
+	<link href="/YouTube_css/css/Video.css" rel="stylesheet">
+	<link href="/YouTube_css/css/general.css" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?
+	family=Roboto:ital,
+	wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,
+	400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 <body style="
@@ -23,37 +31,37 @@
 ">
 
 
-    <div class="header">
-        <div class="left-section">
-            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-            <img class="youtube-logo" src="icons/youtube-logo.svg">
-        </div>
-        <div class="middle-section">
-            <input class="search_bar" type="text" placeholder="Search...">
-            <button class="search-button">
-                <img class="search-icon" src="icons/search.svg">
-            </button>
-            <button class="voice-search-button">
-                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
-            </button>
-        </div>
-        <div class="right-section">
-            <img class="upload-icon" src="icons/upload.svg">
-            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
-            <div class="notifications-icon-container">
-                <img class="notifications-icon" src="icons/notifications.svg">
-                <div class="notifications-count">
-                    3
-                </div>
-            </div>
-            <img class="current-user-picture" src="icons/my-channel.jpeg">
-            <!-- <div class="notificationCount">
+	<div class="header">
+		<div class="left-section">
+			<img class="hamburger-menu" src="icons/hamburger-menu.svg">
+			<img class="youtube-logo" src="icons/youtube-logo.svg">
+		</div>
+		<div class="middle-section">
+			<input class="search_bar" type="text" placeholder="Search...">
+			<button class="search-button">
+				<img class="search-icon" src="icons/search.svg">
+			</button>
+			<button class="voice-search-button">
+				<img class="voice-search-icon" src="icons/voice-search-icon.svg">
+			</button>
+		</div>
+		<div class="right-section">
+			<img class="upload-icon" src="icons/upload.svg">
+			<img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+			<div class="notifications-icon-container">
+				<img class="notifications-icon" src="icons/notifications.svg">
+				<div class="notifications-count">
+					3
+				</div>
+			</div>
+			<img class="current-user-picture" src="icons/my-channel.jpeg">
+			<!-- <div class="notificationCount">
                 9
             </div> -->
-        </div>
-    </div>
+		</div>
+	</div>
 
-    <!-- <div class="navigation_left_pane">
+	<!-- <div class="navigation_left_pane">
 
         <div class="home_class">
             <img class="home_icon" src="icons/home.svg" alt="Oopsy!">
@@ -86,7 +94,7 @@
         </div>
     </div> -->
 
-    <!-- <div class="entire_video_container">
+	<!-- <div class="entire_video_container">
         <div class="video_preview_container">
             <a href="https://www.youtube.com/watch?v=bn-PI9tlqxM">
                 <img class="video_preview_thumbnail" src="images/hq720.avif" alt="Oopsy!" </img>
@@ -120,29 +128,205 @@
         </div>
     </div> -->
 
+	<div class="allThumbnails">
+		<div class="singleThumbnail">
+			<div class="singleThumbnailPic">
+				<img class="thumbnailPic" src="images/hq720.avif" alt="?!">
+			</div>
+			<div class="belowThumbnailPic">
+				<div class="channelProfile">
+					<img class=channelProfilePic src="images/channels4_profile.jpeg">
+				</div>
+				<div class="videoInfoDetails">
+					<!-- <p
+					style="color: green;
+									background-color: yellow;"
+					class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+					</p> -->
 
-    <div class="previewThumbnail">
-        <div class="aaa">
-            <img class="thumbnailPic" src="images/hq720.avif" alt="?!">
-        </div>
-        <div class="belowThumbnailPic">
-            <div class="channelProfile">
-                <img class=channelProfilePic src="images/channels4_profile.jpeg">
-            </div>
-        </div>
-        <div class="videoInfoDetails">
-            <p>
-                Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
-                & Thunder Sounds on Old House at Night
-            </p>
-            <p class="channelNameText">
-                Nature White Noise
-            </p>
-            <p>
-                9.6K views &#183; 1 year ago
-            </p>
-        </div>
-    </div>
+					<div class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+				</div>
+
+
+					<p class="channelNameText">
+						Nature White Noise
+					</p>
+					<p>
+						9.6K views &#183; 1 year ago
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="singleThumbnail">
+			<div class="singleThumbnailPic">
+				<img class="thumbnailPic" src="images/hq720.avif" alt="?!">
+			</div>
+			<div class="belowThumbnailPic">
+				<div class="channelProfile">
+					<img class=channelProfilePic src="images/channels4_profile.jpeg">
+				</div>
+				<div class="videoInfoDetails">
+					<!-- <p
+					style="color: green;
+									background-color: yellow;"
+					class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+					</p> -->
+
+					<div class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+				</div>
+
+
+					<p class="channelNameText">
+						Nature White Noise
+					</p>
+					<p>
+						9.6K views &#183; 1 year ago
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="singleThumbnail">
+			<div class="singleThumbnailPic">
+				<img class="thumbnailPic" src="images/hq720.avif" alt="?!">
+			</div>
+			<div class="belowThumbnailPic">
+				<div class="channelProfile">
+					<img class=channelProfilePic src="images/channels4_profile.jpeg">
+				</div>
+				<div class="videoInfoDetails">
+					<!-- <p
+					style="color: green;
+									background-color: yellow;"
+					class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+					</p> -->
+
+					<div class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+				</div>
+
+
+					<p class="channelNameText">
+						Nature White Noise
+					</p>
+					<p>
+						9.6K views &#183; 1 year ago
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="singleThumbnail">
+			<div class="singleThumbnailPic">
+				<img class="thumbnailPic" src="images/hq720.avif" alt="?!">
+			</div>
+			<div class="belowThumbnailPic">
+				<div class="channelProfile">
+					<img class=channelProfilePic src="images/channels4_profile.jpeg">
+				</div>
+				<div class="videoInfoDetails">
+					<!-- <p
+					style="color: green;
+									background-color: yellow;"
+					class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+					</p> -->
+
+					<div class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+				</div>
+
+
+					<p class="channelNameText">
+						Nature White Noise
+					</p>
+					<p>
+						9.6K views &#183; 1 year ago
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="singleThumbnail">
+			<div class="singleThumbnailPic">
+				<img class="thumbnailPic" src="images/hq720.avif" alt="?!">
+			</div>
+			<div class="belowThumbnailPic">
+				<div class="channelProfile">
+					<img class=channelProfilePic src="images/channels4_profile.jpeg">
+				</div>
+				<div class="videoInfoDetails">
+					<!-- <p
+					style="color: green;
+									background-color: yellow;"
+					class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+					</p> -->
+
+					<div class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+				</div>
+
+
+					<p class="channelNameText">
+						Nature White Noise
+					</p>
+					<p>
+						9.6K views &#183; 1 year ago
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="singleThumbnail">
+			<div class="singleThumbnailPic">
+				<img class="thumbnailPic" src="images/hq720.avif" alt="?!">
+			</div>
+			<div class="belowThumbnailPic">
+				<div class="channelProfile">
+					<img class=channelProfilePic src="images/channels4_profile.jpeg">
+				</div>
+				<div class="videoInfoDetails">
+					<!-- <p
+					style="color: green;
+									background-color: yellow;"
+					class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+					</p> -->
+
+					<div class="titleText">
+						Nature Sounds For Sleep | Perfect Sleep with Heavy Rain
+						& Thunder Sounds on Old House at Night
+				</div>
+
+
+					<p class="channelNameText">
+						Nature White Noise
+					</p>
+					<p>
+						9.6K views &#183; 1 year ago
+					</p>
+				</div>
+			</div>
+		</div>
+
 </body>
 
 </html>

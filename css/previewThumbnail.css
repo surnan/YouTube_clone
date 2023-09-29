@@ -1,29 +1,47 @@
-.previewThumbnail{
+.allThumbnails{
     display: grid;
-    width: 400px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.singleThumbnail{
+    display: grid;
+    row-gap: 5px;
 }
 
 .thumbnailPic{
     width: 100%;
     object-fit: cover;
+    border-radius: 30px;
 }
 
 .channelProfile{
-    width: 50px;
+    width: 40px;
 }
 
 .channelProfilePic{
     width: 100%;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .belowThumbnailPic{
     display: grid;
     grid-template-columns: 50px 1fr;
     column-gap: 20px;
+    padding: 0 10px;
 }
 
 .channelNameText{
-    margin-top: 15px;
-    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.videoInfoDetails{
+    color: rgb(99, 99, 99);
+}
+
+.titleText{
+    color: black;
+    font-weight: 500;
 }
