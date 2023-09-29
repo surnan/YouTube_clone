@@ -1,0 +1,21 @@
+.headerToolBar{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+
+.leftSection{
+  display: flex;
+  column-gap: 20px;
+
+}
+
+.middleSection{
+  display: flex;
+}
+
+
+.headerToolBar img {
+  height: 30px;
+}
