@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   margin: 0;
-  background-color: yellow;
   height: 35px;
   position: fixed;
   top:0;
   left: 0;
   right: 0;
+  background-color: white;
 
 }
 
@@ -18,8 +18,6 @@
 .leftSection{
   display: flex;
   column-gap: 20px;
-  background-color: pink;
-
 }
 
 .rightSection{
@@ -35,7 +33,6 @@
   display: flex;
   flex: 1;
   justify-content: center;
-  background-color: blue;
   margin: 0 50px 0 25px;
   max-width: 500px;
 }
@@ -46,16 +43,11 @@ width: 0;
 }
 
 .search-icon{
-background-color: white;
+background-color: pink;
 }
 .voice-search-button{
-background-color: orange;
+background-color: lightblue;
 }
-
-
-
-
-
 .rightSection{
-  background-color: purple;
+  background-color: pink;
 }
