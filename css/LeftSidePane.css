@@ -34,3 +34,12 @@
     margin-bottom: 15px;
     gap:7px;
 }
+
+.home_icon,
+.explore_icon,
+.subscriptions_icon,
+.originals_icon,
+.youtube_music_icon,
+.library_icon :hover {
+    cursor: pointer;
+}
