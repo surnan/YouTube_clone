@@ -1,0 +1,26 @@
+.navigationSideBar{
+  display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 35px;
+  width: 100x;
+
+
+  z-index: 10;
+  background-color: rgb(233, 232, 232);
+
+}
+
+.navigationSideBar img {
+  width: 64px;
+  height: 76px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.navigationSideBar img:hover{
+  background-color: white;
+}

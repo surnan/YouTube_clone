@@ -4,6 +4,11 @@
   margin: 0;
   background-color: yellow;
   height: 35px;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+
 }
 
 .headerToolBar img {
