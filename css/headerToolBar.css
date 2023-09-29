@@ -1,53 +1,75 @@
-.headerToolBar{
+.headerToolBar {
   display: flex;
   justify-content: space-between;
-  margin: 0;
-  height: 35px;
+
   position: fixed;
-  top:0;
+  height: 50px;
+  top: 0;
   left: 0;
   right: 0;
+
   background-color: white;
-
+  padding: 0 35px 5px 32px;
 }
 
-.headerToolBar img {
-  height: 30px;
-}
-
-.leftSection{
+.leftSection {
   display: flex;
-  column-gap: 20px;
+  align-items: center;
+  column-gap: 40px;
 }
 
-.rightSection{
+.rightSection {
+  background-color: lightblue;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
 
   /*not sure if below line is necessary*/
-  width: 180px;
+  /* width: 180px; */
 }
 
-.middleSection{
+.middleSection {
   display: flex;
+  align-items: center;
   flex: 1;
   justify-content: center;
   margin: 0 50px 0 25px;
   max-width: 500px;
 }
 
-.searchBar{
-flex: 1;
-width: 0;
+.headerToolBar img {
+  height: 36px;
 }
 
-.search-icon{
-background-color: pink;
+.searchBar {
+  flex: 1;
+  width: 0;
+  height: 40px;
+
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-color: rgb(237, 237, 237);
+  border-style: solid;
+  padding: 0 0 0 15px;
+  font-size: large;
 }
-.voice-search-button{
-background-color: lightblue;
+
+.searchBar::placeholder{
+  font-size: small;
 }
-.rightSection{
-  background-color: pink;
+
+
+.searchButton {
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+  border-color: rgb(237, 237, 237);
+  border-style: solid;
+}
+
+.voiceSearchButton {
+  margin-left: 10px;
+  border-radius: 26px;
+  border-color: rgb(237, 237, 237);
+  border-style: solid;
 }
