@@ -22,6 +22,12 @@
     border-radius: 20px;
 }
 
+.thumbnailPicDiv:hover{
+    .videoHoverMenu{
+        display: flex;
+    }
+}
+
 .videoTimer{
     background-color: black;
     color: white;
@@ -31,38 +37,19 @@
     right: 15px;
 }
 
-/*
-<div class="videoHoverMenu">
-<img class="mutePic" src="images/volume_mute.png" alt="?!">
-<img class="ccPic" src="images/closed_caption.png" alt="?!">
- */
-
-
-
- /* <img class="mutePic" src="images/volume_mute.png" alt="?!">
- <img class="ccPic" src="images/closed_caption.png" alt="?!"> */
-
 .mutePic,
 .ccPic {
     height: 25px;
     width: 25px;
-
 }
 
-
 .videoHoverMenu{
-    display: flex;
+    display: none;
     column-gap: 5px;
-
     position: absolute;
     top: 10px;
     right: 10px;
-
-
 }
-
-
-
 
 .channelProfile{
     width: 40px;
