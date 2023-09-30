@@ -14,15 +14,16 @@
 }
 
 .thumbnailPicDiv{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 30px;
     position: relative;
+    width: 100%;
 }
 
 .thumbnailPic{
     width: 100%;
     border-radius: 20px;
+    max-width: 630px;
+    max-height: 350px;
+    object-fit: cover;
 }
 
 .thumbnailPicDiv:hover{
