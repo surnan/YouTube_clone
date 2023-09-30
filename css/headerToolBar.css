@@ -2,13 +2,12 @@
   display: flex;
   justify-content: space-between;
   position: fixed;
-  height: 80px;
+  height: 90px;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
   background-color: white;
-  /* padding: 0 35px 5px 32px; */
   padding: 0 22px;
 }
 
@@ -43,6 +42,21 @@
   font-size: small;
 }
 
+.searchButton {
+  position: relative;
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+  border-color: rgb(237, 237, 237);
+  border-style: solid;
+}
+
+.voiceSearchButton {
+  position: relative;
+  margin-left: 10px;
+  border-radius: 26px;
+  border-color: rgb(237, 237, 237);
+  border-style: solid;
+}
 
 .rightSection {
   display: flex;
@@ -63,7 +77,30 @@
   right: 4px;
 }
 
+.notificationsIconDiv,
+.upload-iconDiv{
+  position: relative;
+  height: 56px;
+  width: 56px;
+  border-radius: 28px;
+}
+
+.hamburgerIcon:hover,
+.current-user-picture:hover,
+.searchButton:hover,
+.voiceSearchButton:hover,
+.notificationsIconDiv:hover,
+.upload-iconDiv:hover{
+  cursor: pointer;
+  background-color: rgb(194, 194, 194);
+
+  .notificationHoverMessage{
+    display: block;
+  }
+}
+
 .notificationHoverMessage{
+  display: none;
   background-color: black;
   color: white;
   opacity: 0.5;
@@ -73,43 +110,12 @@
   font-weight: 400;
 
   padding: 6px;
-  bottom: -20px;
 
   position: absolute;
+  bottom: -30px;
   left: -12px;
   border-radius: 5px 8px;
 }
-
-
-
-.searchButton {
-  border-top-right-radius: 26px;
-  border-bottom-right-radius: 26px;
-  border-color: rgb(237, 237, 237);
-  border-style: solid;
-}
-
-.voiceSearchButton {
-  margin-left: 10px;
-  border-radius: 26px;
-  border-color: rgb(237, 237, 237);
-  border-style: solid;
-}
-
-.voiceSearchButtonDiv,
-.searchButtonDiv,
-.upload-iconDiv,
-.notificationsIconDiv{
-  position: relative;
-}
-
-.hamburgerIcon:hover,
-.upload-icon:hover,
-.notificationsIcon:hover,
-.current-user-picture:hover{
-  background-color: lightgray;
-}
-
 
 
 
