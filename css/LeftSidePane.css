@@ -1,0 +1,45 @@
+.navigation_left_pane {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 50px;
+    width: 100px;
+    z-index: 100;
+    font-size: smaller;
+    background-color: white;
+}
+
+.home_icon,
+.explore_icon,
+.subscriptions_icon,
+.originals_icon,
+.youtube_music_icon,
+.library_icon {
+    width: 40px;
+    height: 40px;
+}
+
+.home_class,
+.explore_class,
+.subscriptions_class,
+.originals_class,
+.youtube_music_class,
+.library_class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    gap:7px;
+}
+
+.home_icon,
+.explore_icon,
+.subscriptions_icon,
+.originals_icon,
+.youtube_music_icon,
+.library_icon :hover {
+    cursor: pointer;
+}
