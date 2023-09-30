@@ -65,6 +65,11 @@
   column-gap: 10px;
 }
 
+.upload-iconDiv,
+.notificationsIconDiv{
+  position: relative;
+}
+
 .notificationCount{
   background-color: red;
   color: white;
@@ -76,9 +81,72 @@
   right: 4px;
 }
 
-.notificationsIconDiv{
-  position: relative;
+.notificationHoverMessage{
+  position: absolute;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+  font-size: small;
+  font-weight: 400;
+  padding: 6px;
+  bottom: -20px;
+  left: -12px;
+  border-radius: 5px 8px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .current-user-picture{
   border-radius: 18px;
