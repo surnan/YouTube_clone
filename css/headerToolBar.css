@@ -1,15 +1,57 @@
+/* .headerToolBar img {
+  height: 36px;
+  border-radius: 18px;
+  border-style: none;
+  background-color: pink;
+  /* padding: 10px;
+} */
+
+.hamburgerIcon,
+.youtube-apps-icon,
+.upload-icon,
+.notificationsIcon{
+  height: 36px;
+  border-radius: 26px;
+  border-style: none;
+  padding: 10px;
+}
+
+.notificationsIcon{
+  margin: 2px 0 0 0;
+
+}
+
+.youtubeIcon{
+  height: 36px;
+  border-style: none;
+}
+
+.current-user-picture,
+.searchIcon,
+.voiceSearchIcon{
+  height: 36px;
+}
+
+.hamburgerIcon:hover,
+.upload-icon:hover,
+.youtube-apps-icon:hover,
+.notificationsIcon:hover,
+.current-user-picture:hover{
+  background-color: lightgray;
+}
+
 .headerToolBar {
   display: flex;
   justify-content: space-between;
-
   position: fixed;
-  height: 50px;
+  height: 80px;
   top: 0;
   left: 0;
   right: 0;
-
+  z-index: 100;
   background-color: white;
-  padding: 0 35px 5px 32px;
+  /* padding: 0 35px 5px 32px; */
+  padding: 0 22px;
 }
 
 .leftSection {
@@ -66,13 +108,6 @@
   column-gap: 10px;
 }
 
-.headerToolBar img {
-  height: 36px;
-  border-radius: 18px;
-  border-style: none;
-  background-color: pink;
-}
-
 .notificationCount{
   background-color: red;
   color: white;
@@ -80,8 +115,8 @@
   border-radius: 10px;
   padding: 3px 7px;
   position: absolute;
-  top: -2px;
-  right: -2px;
+  top: 5px;
+  right: 4px;
 }
 
 .notificationsIconDiv{
@@ -90,11 +125,4 @@
 
 .current-user-picture{
   border-radius: 18px;
-}
-
-.upload-icon:hover,
-.youtube-apps-icon:hover,
-.notificationsIcon:hover,
-.current-user-picture:hover{
-  background-color: lightgray;
 }
