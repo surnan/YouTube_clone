@@ -76,7 +76,35 @@
 
 .upload-icon:hover,
 .youtube-apps-icon:hover,
-.notifications-icon:hover,
+.notificationsIcon:hover,
 .current-user-picture:hover{
+  background-color: lightgray;
+}
+
+/* position: absolute;
+background-color: red;
+color: white;
+top: -2px;
+right: -2px;
+font-size: 11px;
+padding: 2px 5px 2px 5px;
+border-radius: 10px; */
+
+
+.notificationCount{
   background-color: red;
+  color: white;
+  font-size: 12px;
+
+  border-radius: 10px;
+  padding: 3px 7px;
+
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+
+
+.notificationsIconDiv{
+  position: relative;
 }
