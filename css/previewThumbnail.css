@@ -11,19 +11,16 @@
     display: grid;
     row-gap: 5px;
     width: 100%;
-    /* width: 400px; */
 }
 
 .thumbnailPicDiv{
     width: 100%;
-    /* width: 400px; */
     object-fit: cover;
     border-radius: 30px;
     position: relative;
 }
 
 .thumbnailPic{
-    /* max-width: 500px; */
     width: 100%;
     border-radius: 20px;
 }

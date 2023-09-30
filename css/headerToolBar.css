@@ -1,3 +1,7 @@
+.headerToolBar img {
+  height: 36px;
+}
+
 .headerToolBar {
   display: flex;
   justify-content: space-between;
@@ -18,17 +22,6 @@
   column-gap: 40px;
 }
 
-.rightSection {
-  background-color: lightblue;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-shrink: 0;
-
-  /*not sure if below line is necessary*/
-  /* width: 180px; */
-}
-
 .middleSection {
   display: flex;
   align-items: center;
@@ -36,10 +29,6 @@
   justify-content: center;
   margin: 0 50px 0 25px;
   max-width: 500px;
-}
-
-.headerToolBar img {
-  height: 36px;
 }
 
 .searchBar {
@@ -59,7 +48,6 @@
   font-size: small;
 }
 
-
 .searchButton {
   border-top-right-radius: 26px;
   border-bottom-right-radius: 26px;
@@ -72,4 +60,23 @@
   border-radius: 26px;
   border-color: rgb(237, 237, 237);
   border-style: solid;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  column-gap: 10px;
+}
+
+.current-user-picture{
+  border-radius: 18px;
+}
+
+.upload-icon:hover,
+.youtube-apps-icon:hover,
+.notifications-icon:hover,
+.current-user-picture:hover{
+  background-color: red;
 }
