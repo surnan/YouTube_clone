@@ -11,6 +11,36 @@
   padding: 0 22px;
 }
 
+@media (min-width: 775px) {
+  .voiceSearchButton
+  .searchButton,
+  .searchBar {
+    display: block;
+  }
+
+}
+
+@media (min-width: 701px) and (max-width: 775px) {
+  .searchButton,
+  .searchBar {
+    display: none;
+  }
+
+  .voiceSearchButton{
+    display: block;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .voiceSearchButton,
+  .searchButton,
+  .searchBar {
+    display: none;
+  }
+}
+
+
 .leftSection {
   display: flex;
   align-items: center;
@@ -38,7 +68,7 @@
   font-size: large;
 }
 
-.searchBar::placeholder{
+.searchBar::placeholder {
   font-size: small;
 }
 
@@ -66,7 +96,7 @@
   column-gap: 10px;
 }
 
-.notificationCount{
+.notificationCount {
   background-color: red;
   color: white;
   font-size: 12px;
@@ -78,7 +108,7 @@
 }
 
 .notificationsIconDiv,
-.upload-iconDiv{
+.upload-iconDiv {
   position: relative;
   height: 56px;
   width: 56px;
@@ -90,16 +120,16 @@
 .searchButton:hover,
 .voiceSearchButton:hover,
 .notificationsIconDiv:hover,
-.upload-iconDiv:hover{
+.upload-iconDiv:hover {
   cursor: pointer;
   background-color: rgb(194, 194, 194);
 
-  .notificationHoverMessage{
+  .notificationHoverMessage {
     display: block;
   }
 }
 
-.notificationHoverMessage{
+.notificationHoverMessage {
   display: none;
   background-color: black;
   color: white;
@@ -166,7 +196,7 @@
 
 
 
-.current-user-picture{
+.current-user-picture {
   border-radius: 18px;
 }
 
@@ -174,25 +204,25 @@
 .hamburgerIcon,
 .youtube-apps-icon,
 .upload-icon,
-.notificationsIcon{
+.notificationsIcon {
   height: 36px;
   border-radius: 26px;
   border-style: none;
   padding: 10px;
 }
 
-.notificationsIcon{
+.notificationsIcon {
   margin: 2px 0 0 0;
 
 }
 
-.youtubeIcon{
+.youtubeIcon {
   height: 36px;
   border-style: none;
 }
 
 .current-user-picture,
 .searchIcon,
-.voiceSearchIcon{
+.voiceSearchIcon {
   height: 36px;
 }
