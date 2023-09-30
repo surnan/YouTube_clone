@@ -65,6 +65,8 @@
   column-gap: 10px;
 }
 
+.voiceSearchhButtonDiv,
+.searchButtonDiv,
 .upload-iconDiv,
 .notificationsIconDiv{
   position: relative;
@@ -82,14 +84,18 @@
 }
 
 .notificationHoverMessage{
-  position: absolute;
   background-color: black;
   color: white;
   opacity: 0.5;
+
+  text-wrap: nowrap;
   font-size: small;
   font-weight: 400;
+
   padding: 6px;
   bottom: -20px;
+
+  position: absolute;
   left: -12px;
   border-radius: 5px 8px;
 }
